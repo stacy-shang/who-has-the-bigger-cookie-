@@ -82,19 +82,29 @@
             "kind": "group",
             "frameList": [
                 {
+                    "audio": "Q1a",
                     "images": [
                         {
-                            "id": "Q01L",
-                            "src": "Q01L.png",
-                            "position": "left"
+                            "id": "Q1a",
+                            "src": "Q1a.png",
+                            "position": "fill"
                         }
                     ]
                 },
-                {
+                 {
                     "images": [
                         {
-                            "id": "Q02",
-                            "src": "Q02.png",
+                            "id": "Q1b",
+                            "src": "Q1b.png",
+                            "position": "fill"
+                        }
+                    ]
+                },
+                 {
+                    "images": [
+                        {
+                            "id": "Q1c",
+                            "src": "Q1c.png",
                             "position": "fill"
                         }
                     ]
@@ -102,8 +112,8 @@
                 {
                     "images": [
                         {
-                            "id": "Q03",
-                            "src": "Q03.png",
+                            "id": "Q2a",
+                            "src": "Q2a.png",
                             "position": "fill"
                         }
                     ]
@@ -111,8 +121,8 @@
                 {
                     "images": [
                         {
-                            "id": "Q04",
-                            "src": "Q04.png",
+                            "id": "Q2b",
+                            "src": "Q2b.png",
                             "position": "fill"
                         }
                     ]
@@ -120,8 +130,8 @@
                 {
                     "images": [
                         {
-                            "id": "Q05",
-                            "src": "Q05.png",
+                            "id": "Q2c",
+                            "src": "Q2c.png",
                             "position": "fill"
                         }
                     ]
@@ -129,8 +139,8 @@
                 {
                     "images": [
                         {
-                            "id": "Q06",
-                            "src": "Q06.png",
+                            "id": "Q3a",
+                            "src": "Q3a.png",
                             "position": "fill"
                         }
                     ]
@@ -138,8 +148,71 @@
                 {
                     "images": [
                         {
-                            "id": "Q07",
-                            "src": "Q07.png",
+                            "id": "Q3b",
+                            "src": "Q3b.png",
+                            "position": "fill"
+                        }
+                    ]
+                },
+                {
+                    "images": [
+                        {
+                            "id": "Q3c",
+                            "src": "Q3c.png",
+                            "position": "fill"
+                        }
+                    ]
+                },
+                {
+                    "images": [
+                        {
+                            "id": "Q4a",
+                            "src": "Q4a.png",
+                            "position": "fill"
+                        }
+                    ]
+                },
+                {
+                    "images": [
+                        {
+                            "id": "Q4b",
+                            "src": "Q4b.png",
+                            "position": "fill"
+                        }
+                    ]
+                },
+                {
+                    "images": [
+                        {
+                            "id": "Q4c",
+                            "src": "Q4c.png",
+                            "position": "fill"
+                        }
+                    ]
+                },
+                {
+                    "images": [
+                        {
+                            "id": "Q5a",
+                            "src": "Q5a.png",
+                            "position": "fill"
+                        }
+                    ]
+                },
+                {
+                    "images": [
+                        {
+                            "id": "Q5b",
+                            "src": "Q5b.png",
+                            "position": "fill"
+                        }
+                    ]
+                },
+                {
+                    "images": [
+                        {
+                            "id": "Q5c",
+                            "src": "Q5c.png",
                             "position": "fill"
                         }
                     ]
@@ -323,10 +396,10 @@
         }
     },
     "sequence": [
+        "storybook-causal",
         "video-config",
         "video-consent",
         "instructions",
-        "storybook-causal",
         "exit-survey"
     ]
 }
