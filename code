@@ -92,6 +92,7 @@
                     ]
                 },
                  {
+                     "audio": "Q1b",
                     "images": [
                         {
                             "id": "Q1b",
@@ -101,6 +102,7 @@
                     ]
                 },
                  {
+                     "audio": "Question",
                     "images": [
                         {
                             "id": "Q1c",
@@ -220,8 +222,8 @@
                 {
                     "images": [
                         {
-                            "id": "Q08",
-                            "src": "Q08.png",
+                            "id": "Q6a",
+                            "src": "Q6a.png",
                             "position": "fill"
                         }
                     ]
@@ -229,8 +231,26 @@
                 {
                     "images": [
                         {
-                            "id": "Q09",
-                            "src": "Q09.png",
+                            "id": "Q6b",
+                            "src": "Q6b.png",
+                            "position": "fill"
+                        }
+                    ]
+                },
+                {
+                    "images": [
+                        {
+                            "id": "Q6c",
+                            "src": "Q6c.png",
+                            "position": "fill"
+                        }
+                    ]
+                },
+                {
+                    "images": [
+                        {
+                            "id": "Q7a",
+                            "src": "Q7a.png",
                             "position": "fill"
                         }
                     ]
