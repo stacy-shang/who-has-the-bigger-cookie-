@@ -430,17 +430,17 @@
                     "highlights": [
                         {
                             "range": [
-                                1.2,
-                                3.5
+                                0.9,
+                                3.3
                             ],
-                            "imageId": "Q11b"
+                            "imageId": "Q11a"
                         },
                         {
                             "range": [
-                                4.0,
-                                6.1
+                                3.3,
+                                5.1
                             ],
-                            "imageId": "Q11a"
+                            "imageId": "Q11b"
                         }
                     ]
                 },
@@ -623,9 +623,9 @@
                 "choiceRequired": true,
                 "parentTextBlock": {
                     "css": {
-                        "font-size": "1.5em"
+                        "font-size": "1.3em"
                     },
-                    "text": "Please help keep your child's attention, but don't talk with him or her about WHY Bunny might be getting a tummyache yet! Feel free to replay the audio if your child was distracted.",
+                    "text": "Please help keep your child's attention, but don't talk with him or her about why Bobby, Sara, or Amy has a bigger/smaller cookie! Feel free to replay the audio if your child was distracted.",
                     "title": "For parents"
                 }
             }
