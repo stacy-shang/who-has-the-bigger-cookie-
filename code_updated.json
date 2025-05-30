@@ -1,0 +1,637 @@
+{
+    "frames": {
+        "exit-survey": {
+            "kind": "exp-lookit-exit-survey",
+            "debriefing": {
+                "text": "Here is where you would enter debriefing information for the family. This is a chance to explain the purpose of your study and how the family helped; at this point it's more obvious to the participant that skimming the info is fine if they're not super-interested, so you can elaborate in ways you might have avoided ahead of time in the interest of keeping instructions short. You may want to mention the various conditions kids were assigned to if you didn't before, and try to head off any concerns parents might have about how their child 'did' on the study, especially if there are 'correct' answers that will have been obvious to a parent. <br><br> It is great if you can link people to a layperson-accessible article on a related topic - e.g., media coverage of one of your previous studies in this research program, a talk on Youtube, a parenting resource. <br><br> If you are compensating participants, restate what the compensation is (and any conditions, and let them know when to expect their payment! E.g.: To thank you for your participation, we'll be emailing you a $4 Amazon gift card - this should arrive in your inbox within the next week after we confirm your consent video and check that your child is in the age range for this study. (If you don't hear from us by then, feel free to reach out!) If you participate again with another child in the age range, you'll receive one gift card per child.",
+                "title": "Thank you!"
+            }
+        },
+        "instructions": {
+            "kind": "exp-lookit-instructions",
+            "blocks": [
+                {
+                    "title": "Overview of how to participate in this study",
+                    "listblocks": [
+                        {
+                            "text": "This is an 'exp-lookit-instructions' frame."
+                        },
+                        {
+                            "text": "See https://lookit.readthedocs.io/projects/frameplayer/en/latest/components/exp-lookit-instructions/doc.html"
+                        },
+                        {
+                            "text": "You can display any text, audio, images, and video you want, and can optionally require participants to play audio/video segments to move on. You can also choose whether to display the webcam."
+                        }
+                    ]
+                },
+                {
+                    "text": "Please try playing this sample audio to make sure you'll be able to hear the story.",
+                    "title": "Adjust your speakers",
+                    "mediaBlock": {
+                        "text": "You should hear 'Ready to go?'",
+                        "isVideo": false,
+                        "sources": [
+                            {
+                                "src": "https://s3.amazonaws.com/lookitcontents/exp-physics-final/audio/ready.mp3",
+                                "type": "audio/mp3"
+                            },
+                            {
+                                "src": "https://s3.amazonaws.com/lookitcontents/exp-physics-final/audio/ready.ogg",
+                                "type": "audio/ogg"
+                            }
+                        ],
+                        "mustPlay": true,
+                        "warningText": "Please try playing the sample audio."
+                    }
+                }
+            ],
+            "showWebcam": true,
+            "webcamBlocks": [
+                {
+                    "title": "Make sure we can see you",
+                    "listblocks": [
+                        {
+                            "text": "Take a look at your webcam view above. Get comfy, and adjust your own position or the computer as needed so both you and your child are visible."
+                        },
+                        {
+                            "text": "This isn't a Skype call - no one in the lab can see you - but the recorded video of your participation will be sent to the lab to help with data analysis. It's helpful for us to be able to see if your child was pointing or looking confused, for example."
+                        }
+                    ]
+                }
+            ],
+            "nextButtonText": "Next"
+        },
+        "video-config": {
+            "kind": "exp-video-config",
+            "troubleshootingIntro": "This is a standard frame you probably want to put at the very start of your study. You can customize this bit of text; the rest is standard and maintained by Lookit."
+        },
+        "video-consent": {
+            "kind": "exp-lookit-video-consent",
+            "template": "consent_005",
+            "PIName": "Lookit Tutorial Participant",
+            "PIContact": "Jane Smith at (123) 456-7890",
+            "include_databrary": true,
+            "risk_statement": "There are no expected risks to participation.",
+            "datause": "We are interested in how your child uses statistical evidence to figure out the cause of an event. A research assistant will watch your video and mark down your child's answer to the question at the end of the story, and as well as other information such as interactions between you and your child during the story.",
+            "payment": "After you finish the study, we will email you a $5 BabyStore gift card within approximately three days. To be eligible for the gift card your child must be in the age range for this study, you need to submit a valid consent statement, and we need to see that there is a child with you. But we will send a gift card even if you do not finish the whole study or we are not able to use your child's data! There are no other direct benefits to you or your child from participating, but we hope you will enjoy the experience.",
+            "purpose": "This study is about how children use statistical information to adjust their beliefs about cause and effect.",
+            "procedures": "In this study you child will view a digital 'storybook' about Bunny, who sometimes gets a tummyache. Each day Bunny eats different foods and does different activities, and we hear whether she gets a tummyache. Sometimes, Bunny feels scared because of show-and-tell. We are interested in how the pattern of evidence influences your child's beliefs about what causes Bunny's tummyache. We will ask you (the parent) to avoid discussing why Bunny has a tummyache until the end of the study. There are no anticipated risks associated with participating.",
+            "institution": "Science University"
+        },
+        "storybook-causal": {
+            "kind": "group",
+            "frameList": [
+                {
+                    "audio": "Q1",
+                    "images": [
+                        {
+                            "id": "Q1a",
+                            "src": "Q4C1.png",
+                            "right": 50,
+                            "width": 50
+                        },
+                        {
+                            "id": "Q1b",
+                            "src": "Q4C2.png",
+                            "left": 50,
+                            "width": 50
+                        }
+                    ],
+                    "highlights": [
+                        {
+                            "range": [
+                                4.8,
+                                7
+                            ],
+                            "imageId": "Q1b"
+                        },
+                        {
+                            "range": [
+                                7.3,
+                                9.3
+                            ],
+                            "imageId": "Q1a"
+                        }
+                    ]
+                },
+                {
+                    "audio": "Q2",
+                    "images": [
+                        {
+                            "id": "Q2a",
+                            "src": "Q5C1.png",
+                            "right": 50,
+                            "width": 50
+                        },
+                        {
+                            "id": "Q2b",
+                            "src": "Q5C2.png",
+                            "left": 50,
+                            "width": 50
+                        }
+                    ],
+                    "highlights": [
+                        {
+                            "range": [
+                                1.1,
+                                3.6
+                            ],
+                            "imageId": "Q2b"
+                        },
+                        {
+                            "range": [
+                                3.9,
+                                6.1
+                            ],
+                            "imageId": "Q2a"
+                        }
+                    ]
+                },
+                {
+                    "audio": "Q3",
+                    "images": [
+                        {
+                            "id": "Q3a",
+                            "src": "Q6C1.png",
+                            "right": 50,
+                            "width": 50
+                        },
+                        {
+                            "id": "Q3b",
+                            "src": "Q6C2.png",
+                            "left": 50,
+                            "width": 50
+                        }
+                    ],
+                    "highlights": [
+                        {
+                            "range": [
+                                1.5,
+                                3.7
+                            ],
+                            "imageId": "Q3a"
+                        },
+                        {
+                            "range": [
+                                4.1,
+                                6.0
+                            ],
+                            "imageId": "Q3b"
+                        }
+                    ]
+                },
+                {
+                    "audio": "Q4",
+                    "images": [
+                        {
+                            "id": "Q4a",
+                            "src": "Q7C1.png",
+                            "right": 50,
+                            "width": 50
+                        },
+                        {
+                            "id": "Q4b",
+                            "src": "Q7C2.png",
+                            "left": 50,
+                            "width": 50
+                        }
+                    ],
+                    "highlights": [
+                        {
+                            "range": [
+                                1.3,
+                                3.5
+                            ],
+                            "imageId": "Q4a"
+                        },
+                        {
+                            "range": [
+                                3.7,
+                                5.7
+                            ],
+                            "imageId": "Q4b"
+                        }
+                    ]
+                },
+                {
+                    "audio": "Q5",
+                    "images": [
+                        {
+                            "id": "Q5a",
+                            "src": "Q8C1.png",
+                            "right": 50,
+                            "width": 50
+                        },
+                        {
+                            "id": "Q5b",
+                            "src": "Q8C2.png",
+                            "left": 50,
+                            "width": 50
+                        }
+                    ],
+                    "highlights": [
+                        {
+                            "range": [
+                                1.4,
+                                3.7
+                            ],
+                            "imageId": "Q5b"
+                        },
+                        {
+                            "range": [
+                                4.0,
+                                6.6
+                            ],
+                            "imageId": "Q5a"
+                        }
+                    ]
+                },
+                {
+                    "audio": "Q6",
+                    "images": [
+                        {
+                            "id": "Q6a",
+                            "src": "Q9C1.png",
+                            "right": 50,
+                            "width": 50
+                        },
+                        {
+                            "id": "Q6b",
+                            "src": "Q9C2.png",
+                            "left": 50,
+                            "width": 50
+                        }
+                    ],
+                    "highlights": [
+                        {
+                            "range": [
+                                0.8,
+                                2.6
+                            ],
+                            "imageId": "Q6b"
+                        },
+                        {
+                            "range": [
+                                3.0,
+                                6.1
+                            ],
+                            "imageId": "Q6a"
+                        }
+                    ]
+                },
+                {
+                    "audio": "Q7",
+                    "images": [
+                        {
+                            "id": "Q7b",
+                            "src": "Q10C1.png",
+                            "right": 50,
+                            "width": 50
+                        },
+                        {
+                            "id": "Q7a",
+                            "src": "Q10C2.png",
+                            "left": 50,
+                            "width": 50
+                        }
+                    ],
+                    "highlights": [
+                        {
+                            "range": [
+                                1.5,
+                                3.2
+                            ],
+                            "imageId": "Q7b"
+                        },
+                        {
+                            "range": [
+                                3.5,
+                                5.5
+                            ],
+                            "imageId": "Q7a"
+                        }
+                    ]
+                },
+                {
+                    "audio": "Q8",
+                    "images": [
+                        {
+                            "id": "Q8a",
+                            "src": "Q11C1.png",
+                            "right": 50,
+                            "width": 50
+                        },
+                        {
+                            "id": "Q8b",
+                            "src": "Q11C2.png",
+                            "left": 50,
+                            "width": 50
+                        }
+                    ],
+                    "highlights": [
+                        {
+                            "range": [
+                                1.1,
+                                3.2
+                            ],
+                            "imageId": "Q8b"
+                        },
+                        {
+                            "range": [
+                                3.6,
+                                6.0
+                            ],
+                            "imageId": "Q8a"
+                        }
+                    ]
+                },
+                {
+                    "audio": "Q9",
+                    "images": [
+                        {
+                            "id": "Q9a",
+                            "src": "Q12C1.png",
+                            "right": 50,
+                            "width": 50
+                        },
+                        {
+                            "id": "Q9b",
+                            "src": "Q12C2.png",
+                            "left": 50,
+                            "width": 50
+                        }
+                    ],
+                    "highlights": [
+                        {
+                            "range": [
+                                0.8,
+                                2.9
+                            ],
+                            "imageId": "Q9b"
+                        },
+                        {
+                            "range": [
+                                3.1,
+                                4.7
+                            ],
+                            "imageId": "Q9a"
+                        }
+                    ]
+                },
+                {
+                    "audio": "Q10",
+                    "images": [
+                        {
+                            "id": "Q10a",
+                            "src": "Q13C1.png",
+                            "right": 50,
+                            "width": 50
+                        },
+                        {
+                            "id": "Q10b",
+                            "src": "Q13C2.png",
+                            "left": 50,
+                            "width": 50
+                        }
+                    ],
+                    "highlights": [
+                        {
+                            "range": [
+                                1.4,
+                                3.4
+                            ],
+                            "imageId": "Q10b"
+                        },
+                        {
+                            "range": [
+                                3.6,
+                                5.3
+                            ],
+                            "imageId": "Q10a"
+                        }
+                    ]
+                },
+                {
+                    "audio": "Q11",
+                    "images": [
+                        {
+                            "id": "Q11a",
+                            "src": "Q14C1.png",
+                            "right": 50,
+                            "width": 50
+                        },
+                        {
+                            "id": "Q11b",
+                            "src": "Q14C2.png",
+                            "left": 50,
+                            "width": 50
+                        }
+                    ],
+                    "highlights": [
+                        {
+                            "range": [
+                                0.9,
+                                3.3
+                            ],
+                            "imageId": "Q11a"
+                        },
+                        {
+                            "range": [
+                                3.3,
+                                5.1
+                            ],
+                            "imageId": "Q11b"
+                        }
+                    ]
+                },
+                {
+                    "audio": "Q12",
+                    "images": [
+                        {
+                            "id": "Q12a",
+                            "src": "Q15C1.png",
+                            "right": 50,
+                            "width": 50
+                        },
+                        {
+                            "id": "Q12b",
+                            "src": "Q15C2.png",
+                            "left": 50,
+                            "width": 50
+                        }
+                    ],
+                    "highlights": [
+                        {
+                            "range": [
+                                1.0,
+                                3.4
+                            ],
+                            "imageId": "Q12a"
+                        },
+                        {
+                            "range": [
+                                3.8,
+                                5.3
+                            ],
+                            "imageId": "Q12b"
+                        }
+                    ]
+                },
+                {
+                    "audio": "Q13",
+                    "images": [
+                        {
+                            "id": "Q13a",
+                            "src": "Q16C1.png",
+                            "right": 50,
+                            "width": 50
+                        },
+                        {
+                            "id": "Q13b",
+                            "src": "Q16C2.png",
+                            "left": 50,
+                            "width": 50
+                        }
+                    ],
+                    "highlights": [
+                        {
+                            "range": [
+                                1.3,
+                                3.1
+                            ],
+                            "imageId": "Q13b"
+                        },
+                        {
+                            "range": [
+                                3.3,
+                                5.2
+                            ],
+                            "imageId": "Q13a"
+                        }
+                    ]
+                },
+                {
+                    "audio": "Q14",
+                    "images": [
+                        {
+                            "id": "Q14a",
+                            "src": "Q17C1.png",
+                            "right": 50,
+                            "width": 50
+                        },
+                        {
+                            "id": "Q14b",
+                            "src": "Q17C2.png",
+                            "left": 50,
+                            "width": 50
+                        }
+                    ],
+                    "highlights": [
+                        {
+                            "range": [
+                                0.9,
+                                3.2
+                            ],
+                            "imageId": "Q14b"
+                        },
+                        {
+                            "range": [
+                                3.5,
+                                6.0
+                            ],
+                            "imageId": "Q14a"
+                        }
+                    ]
+                },
+                {
+                    "audio": "Q15",
+                    "images": [
+                        {
+                            "id": "Q15a",
+                            "src": "Q18C1.png",
+                            "right": 50,
+                            "width": 50
+                        },
+                        {
+                            "id": "Q15b",
+                            "src": "Q18C2.png",
+                            "left": 50,
+                            "width": 50
+                        }
+                    ],
+                    "highlights": [
+                        {
+                            "range": [
+                                1.3,
+                                3.2
+                            ],
+                            "imageId": "Q15a"
+                        },
+                        {
+                            "range": [
+                                3.8,
+                                5.8
+                            ],
+                            "imageId": "Q15b"
+                        }
+                    ]
+                },
+                {
+                    "audio": "Q16",
+                    "images": [
+                        {
+                            "id": "Q16a",
+                            "src": "Q19C1.png",
+                            "right": 50,
+                            "width": 50
+                        },
+                        {
+                            "id": "Q16b",
+                            "src": "Q19C2.png",
+                            "left": 50,
+                            "width": 50
+                        }
+                    ],
+                    "highlights": [
+                        {
+                            "range": [
+                                1.1,
+                                2.9
+                            ],
+                            "imageId": "Q16a"
+                        },
+                        {
+                            "range": [
+                                3.0,
+                                5.1
+                            ],
+                            "imageId": "Q16b"
+                        }
+                    ]
+                }
+            ],
+            "commonFrameProperties": {
+                "kind": "exp-lookit-images-audio",
+                "baseDir": "https://raw.githubusercontent.com/stacy-shang/who-has-the-bigger-cookie-/master/",
+                "id": "storybook-group",
+                "audioTypes": [
+                    "mp3",
+                    "ogg"
+                ],
+                "autoProceed": false,
+                "doRecording": false,
+                "choiceRequired": true,
+                "parentTextBlock": {
+                    "css": {
+                        "font-size": "1.3em"
+                    },
+                    "text": "Please help keep your child's attention, but don't talk with him or her about why Bobby, Sara, or Amy has a bigger/smaller cookie! Feel free to replay the audio if your child was distracted.",
+                    "title": "For parents"
+                }
+            }
+        }
+    },
+    "sequence": [
+        "storybook-causal"
+    ]
+}
